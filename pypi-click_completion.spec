@@ -4,7 +4,7 @@
 #
 Name     : pypi-click_completion
 Version  : 0.5.2
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/93/18/74e2542defdda23b021b12b835b7abbd0fc55896aa8d77af280ad65aa406/click-completion-0.5.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/93/18/74e2542defdda23b021b12b835b7abbd0fc55896aa8d77af280ad65aa406/click-completion-0.5.2.tar.gz
 Summary  : Fish, Bash, Zsh and PowerShell completion for Click
@@ -14,9 +14,6 @@ Requires: pypi-click_completion-license = %{version}-%{release}
 Requires: pypi-click_completion-python = %{version}-%{release}
 Requires: pypi-click_completion-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: click-completion
-Provides: click-completion-python
-Provides: click-completion-python3
 BuildRequires : pypi(click)
 BuildRequires : pypi(jinja2)
 BuildRequires : pypi(shellingham)
@@ -68,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641423138
+export SOURCE_DATE_EPOCH=1649728178
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
