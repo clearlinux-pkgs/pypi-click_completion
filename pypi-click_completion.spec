@@ -4,7 +4,7 @@
 #
 Name     : pypi-click_completion
 Version  : 0.5.2
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/93/18/74e2542defdda23b021b12b835b7abbd0fc55896aa8d77af280ad65aa406/click-completion-0.5.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/93/18/74e2542defdda23b021b12b835b7abbd0fc55896aa8d77af280ad65aa406/click-completion-0.5.2.tar.gz
 Summary  : Fish, Bash, Zsh and PowerShell completion for Click
